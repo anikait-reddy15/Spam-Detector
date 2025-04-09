@@ -12,7 +12,7 @@ with open('spam.csv', 'rb') as f:
 
 print(f"File encoding: {encoding}")
 
-# Load dataset
+#Load dataset
 data = pd.read_csv('spam.csv', encoding=encoding)
 
 # Convert labels to binary values (ham -> 0, spam -> 1)
